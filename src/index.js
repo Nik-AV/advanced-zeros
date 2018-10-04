@@ -53,5 +53,5 @@ module.exports = function getZerosCount(number, base) {
       min=schet[i];
     }
   }
-  return min;
+  return Math.floor(min);
 }
